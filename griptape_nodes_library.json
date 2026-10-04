@@ -1,0 +1,27 @@
+{
+    "name": "Griptape Training Modules",
+    "library_schema_version": "0.14.0",
+    "metadata": {
+        "author": "Foundry",
+        "description": "Ready-made workflows for the Griptape Training Modules, one template per module, each with the results of a full run.",
+        "library_version": "0.1.20261004",
+        "engine_version": "0.103.1",
+        "tags": [
+            "Training",
+            "Templates"
+        ],
+        "dependencies": {
+            "pip_dependencies": []
+        }
+    },
+    "categories": [],
+    "nodes": [],
+    "workflows": [
+        "workflows/module_1_first_workflows.py",
+        "workflows/module_2_models_deep_dive.py",
+        "workflows/module_4_customising_griptape.py",
+        "workflows/module_5_pipeline_integration.py",
+        "workflows/module_6_vfx_examples.py",
+        "workflows/module_7_security_and_scaling.py"
+    ]
+}

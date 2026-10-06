@@ -1,7 +1,7 @@
 # Griptape training, Module 5, Exercise 1: a starting sketch of a studio REZ package for Griptape Nodes.
 #
-# IN DEVELOPMENT: Griptape's own REZ packages are being built. This sketch is our draft, not a supported setup, and it
-# will be replaced by the real thing when it arrives.
+# NOT IN GRIPTAPE YET: REZ support is a future Griptape feature. This sketch is our own draft, not a supported setup,
+# so studios can try the idea early; Griptape's own package will replace it when it ships.
 #
 # Written from the Griptape Nodes 0.100.0 / engine 0.103.0 source and the REZ docs. Adapt it to your studio's REZ
 # setup and log every place where it does not fit: those are your findings.

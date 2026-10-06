@@ -14,6 +14,7 @@
 # last_modified_date = 2026-10-06T10:43:56.533053Z
 # 
 # description = "Griptape Training Modules, Module 6: VFX Workflows & Nuke Integration. Open it, read the Read Me First note, then follow the step boxes."
+# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_6_vfx_examples.webp"
 # ///
 
 import pickle

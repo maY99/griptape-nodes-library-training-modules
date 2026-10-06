@@ -7,7 +7,8 @@ full run, so every picture and video already shows when you open it.
 
 In Griptape Nodes: **Manage**, **Library Management**, **Add Library**, paste this repository's URL, then confirm.
 The library lands in your workspace's `libraries` folder; keep that folder where Griptape put it, because the
-workflows find their pictures and videos there.
+workflows find their pictures and videos there. Then restart Griptape Nodes once: a newly added library's templates
+show only after a restart.
 
 Or download `griptape-nodes-library-training-modules.zip` from the latest release, unzip it into your workspace's `libraries` folder (it holds one folder,
 `griptape-nodes-library-training-modules`; keep that name), then add it in **Library Management**.
@@ -22,7 +23,8 @@ their new results go into your own outputs folder.
 Some steps run a model on your own graphics card; the amber **GPU** note above such a node says how much video
 memory it needs. Models are not in this library: they download the first time a node uses them.
 
-`extras/` holds files a module asks you to use outside Griptape (Module 5's pipeline files); its Read Me says where.
+`extras/` holds files a module asks you to use outside Griptape (Module 5's pipeline files); Module 5's **Read Me
+First** note says what to do with them.
 
 | Module | Template |
 |---|---|

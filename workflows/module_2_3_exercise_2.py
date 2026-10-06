@@ -3,6 +3,7 @@
 # 
 # [tool.griptape-nodes]
 # name = "Module 2, 3 Exercise 2: Under the hood with Diffusers"
+# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_2.webp"
 # schema_version = "0.20.0"
 # engine_version_created_with = "0.103.1"
 # node_libraries_referenced = [["Griptape Nodes Advanced Media Library", "0.73.0"], ["Griptape Modular Diffusion Nodes Library", "0.7.0"], ["Griptape Nodes Library", "0.88.0"]]
@@ -14,7 +15,6 @@
 # last_modified_date = 2026-10-06T15:25:10.149365Z
 # 
 # description = "Griptape Training Modules, Module 2, 3 Exercise 2: Under the hood with Diffusers. Open it, read the Read Me First note, then follow the step boxes."
-# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_2_3_exercise_2.webp"
 # ///
 
 import pickle

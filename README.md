@@ -17,7 +17,7 @@ Or download `griptape-nodes-library-training-modules.zip` from the latest releas
 
 **File**, **Open**, the template for your module. Every template comes with the results of a full run: each picture
 and video shows as soon as it opens, with nothing to run. Read the **Read Me First** note, then follow the step boxes.
-**Save** makes your own copy in your workspace; the template stays as it is. Running nodes yourself uses credits, and
+Your changes go into your own copy in your workspace; the template itself stays as it is. Running nodes yourself uses credits, and
 their new results go into your own outputs folder.
 
 Some steps run a model on your own graphics card; the amber **GPU** note above such a node says how much video

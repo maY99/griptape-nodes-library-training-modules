@@ -3,6 +3,7 @@
 # 
 # [tool.griptape-nodes]
 # name = "Module 5, 4 Exercise 3: Publish with provenance"
+# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_5.webp"
 # schema_version = "0.20.0"
 # engine_version_created_with = "0.103.1"
 # node_libraries_referenced = [["Griptape Nodes Library", "0.88.0"]]
@@ -14,7 +15,6 @@
 # last_modified_date = 2026-10-06T15:37:04.919740Z
 # 
 # description = "Griptape Training Modules, Module 5, 4 Exercise 3: Publish with provenance. Open it, read the Read Me First note, then follow the step boxes."
-# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_5_4_exercise_3.webp"
 # ///
 
 import pickle

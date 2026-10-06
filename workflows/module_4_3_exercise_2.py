@@ -3,6 +3,7 @@
 # 
 # [tool.griptape-nodes]
 # name = "Module 4, 3 Exercise 2: Package it into a library"
+# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_4.webp"
 # schema_version = "0.20.0"
 # engine_version_created_with = "0.103.1"
 # node_libraries_referenced = [["Griptape Nodes Library", "0.88.0"]]
@@ -14,7 +15,6 @@
 # last_modified_date = 2026-10-06T15:30:29.496079Z
 # 
 # description = "Griptape Training Modules, Module 4, 3 Exercise 2: Package it into a library. Open it, read the Read Me First note, then follow the step boxes."
-# image = "https://raw.githubusercontent.com/maY99/griptape-nodes-library-training-modules/main/workflows/thumbnail_module_4_3_exercise_2.webp"
 # ///
 
 import pickle

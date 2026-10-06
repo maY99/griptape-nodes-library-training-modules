@@ -4,7 +4,7 @@
     "metadata": {
         "author": "Foundry",
         "description": "Ready-made workflows for the Griptape Training Modules, one template per module, each with the results of a full run.",
-        "library_version": "0.1.20261005",
+        "library_version": "0.1.20261006",
         "engine_version": "0.103.1",
         "tags": [
             "Training",

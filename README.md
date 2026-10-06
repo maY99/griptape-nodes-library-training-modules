@@ -44,7 +44,15 @@ First** note says what to do with them.
 | 5 | Module 5, 2 Exercise 1: REZ configuration |
 | 5 | Module 5, 3 Exercise 2: Headless execution |
 | 5 | Module 5, 4 Exercise 3: Publish with provenance |
-| 6 | Module 6: VFX Workflows & Nuke Integration |
+| 6 | Module 6, 1 Sources |
+| 6 | Module 6, 2 Exercise 1: Make a shot that was never filmed |
+| 6 | Module 6, 3 Exercise 2: Swap the car on a still |
+| 6 | Module 6, 4 Exercise 3: Swap the car on video |
+| 6 | Module 6, 5 Exercise 4: Swap a face on video |
+| 6 | Module 6, 6 Exercise 5: Clean up a shot on video |
+| 6 | Module 6, 7 Exercise 6: Extend the set on video |
+| 6 | Module 6, 8 Exercise 7: Make a 3D model of the new car |
+| 6 | Module 6, 9 Exercise 8: Turn the clean plate into a 360 panorama and a splat |
 | 7 | Module 7, 1 Sources |
 | 7 | Module 7, 2 Exercise 1: Read the topology |
 | 7 | Module 7, 3 Exercise 2: Issue a seat |

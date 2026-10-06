@@ -17,7 +17,10 @@
     "categories": [],
     "nodes": [],
     "workflows": [
-        "workflows/module_1_first_workflows.py",
+        "workflows/module_1_sources.py",
+        "workflows/module_1_exercise_1.py",
+        "workflows/module_1_exercise_2.py",
+        "workflows/module_1_exercise_3.py",
         "workflows/module_2_models_deep_dive.py",
         "workflows/module_4_customising_griptape.py",
         "workflows/module_5_pipeline_integration.py",

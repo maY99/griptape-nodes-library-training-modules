@@ -1,0 +1,106 @@
+#! C:/Program Files/Nuke17.1v1/nuke-17.1.1.dll -nx
+#write_info Finished file:"[file dirname [value root.name]]/finished_the_shot.mp4" format:"1280 720 1" chans:":rgba.red:rgba.green:rgba.blue:" framerange:"1001 1121" fps:"0" colorspace:"default" datatype:"unknown" transfer:"unknown" views:"main" colorManagement:"Nuke"
+version 17.1 v1
+Root {
+ inputs 0
+ gsv  {
+  __default__ {
+  } 
+}
+ name D:/dev/griptape-module6/files/module_6_nuke/finish_the_shot.nk
+ first_frame 1001
+ last_frame 1121
+ format "1280 720 0 0 1280 720 1 module_6_720p"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT 0
+ monitorLut sRGB
+ monitorOutLUT rec709
+ int8Lut 0
+ int16Lut 0
+ logLut 0
+ floatLut 0
+}
+Read {
+ inputs 0
+ file_type mov
+ file "\[file dirname \[value root.name]]/../../media/outputs/videos/module_6/exercise_3/car_swap_v005.mp4"
+ last 121
+ frame_mode "start at"
+ frame 1001
+ origlast 121
+ mov64_prraw_plugin Standard
+ name Plate
+ label "the car swap from Exercise 3\n(Griptape replaces this path)"
+ xpos 0
+}
+Grade {
+ name Grade_Look
+ label "white and gamma: set from Griptape"
+ xpos 0
+ ypos 120
+}
+Text2 {
+ font_size_toolbar 100
+ font_width_toolbar 100
+ font_height_toolbar 100
+ message "car_swap  \[frame]"
+ old_message {
+  {99 97 114 95 115 119 97 112 32 32 49 48 48 49}
+ }
+ old_expression_markers {
+  {10 13}
+ }
+ box {32 24 900 84}
+ yjustify bottom
+ transforms {
+  {0 2}
+ }
+ global_font_scale 0.36
+ autofit_bbox false
+ group_animations {
+  {0}
+  imported:
+  0
+  selected:
+  0
+  items:
+  "root transform/"
+ }
+ animation_layers {
+  {1 11 640 360 0 0 1 1 0 0 0 0}
+ }
+ name Burn_In
+ label "message: set from Griptape"
+ xpos 0
+ ypos 240
+}
+Write {
+ file "\[file dirname \[value root.name]]/finished_the_shot.mp4"
+ file_type mov
+ mov64_format "mp4 (MP4 (MPEG-4 Part 14))"
+ mov64_codec h264
+ mov_h264_codec_profile "High 4:2:0 8-bit"
+ mov64_pixel_format {
+  {0}
+ }
+ mov64_quality High
+ mov64_fast_start true
+ mov64_write_timecode true
+ mov64_gop_size 12
+ mov64_b_frames 0
+ mov64_bitrate 28000
+ mov64_bitrate_tolerance 0
+ mov64_quality_min 1
+ mov64_quality_max 3
+ create_directories true
+ checkHashOnRead false
+ ocioColorspace scene_linear
+ display default
+ view sRGB
+ name Finished
+ label "H.264 MP4 back to Griptape\n(Griptape replaces this path)"
+ xpos 0
+ ypos 360
+}

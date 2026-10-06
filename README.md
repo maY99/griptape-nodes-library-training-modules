@@ -28,7 +28,10 @@ First** note says what to do with them.
 
 | Module | Template |
 |---|---|
-| 1 | Module 1: Installation & First Workflows |
+| 1 | Module 1, Sources |
+| 1 | Module 1, Exercise 1: Install and launch Griptape Nodes |
+| 1 | Module 1, Exercise 2: API vs local model |
+| 1 | Module 1, Exercise 3: Project basics |
 | 2 | Module 2: Models Deep Dive |
 | 4 | Module 4: Customising Griptape |
 | 5 | Module 5: Pipeline Integration |

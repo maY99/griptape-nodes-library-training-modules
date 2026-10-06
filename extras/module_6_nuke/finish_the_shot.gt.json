@@ -1,0 +1,43 @@
+{
+  "schema": "griptape-nuke-annotations/1.0",
+  "script": "finish_the_shot.nk",
+  "script_hash": "sha256:54def08fc87dae68c47e104fb1b6c95003101f4735028cdae25a7a89c99fc4c5",
+  "annotations": [
+    {
+      "node": "Plate",
+      "gt_role": "input",
+      "gt_name": "plate",
+      "gt_type": "VideoUrlArtifact",
+      "gt_label": "Plate (video)"
+    },
+    {
+      "node": "Finished",
+      "gt_role": "output",
+      "gt_name": "finished_shot",
+      "gt_type": "VideoUrlArtifact",
+      "gt_label": "Finished shot"
+    },
+    {
+      "node": "Grade_Look",
+      "gt_expose": [
+        {
+          "knob": "Grade_Look.white",
+          "type": "AColor_Knob"
+        },
+        {
+          "knob": "Grade_Look.gamma",
+          "type": "AColor_Knob"
+        }
+      ]
+    },
+    {
+      "node": "Burn_In",
+      "gt_expose": [
+        {
+          "knob": "Burn_In.message",
+          "type": "Multiline_Eval_String_Knob"
+        }
+      ]
+    }
+  ]
+}

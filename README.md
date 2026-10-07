@@ -36,6 +36,9 @@ First** note says what to do with them.
 | 2 | Module 2, 2 Exercise 1: Proxy vs local, same task |
 | 2 | Module 2, 3 Exercise 2: Under the hood with Diffusers |
 | 2 | Module 2, 4 Exercise 3: Chain generation and cleanup |
+| 3 | Module 3, 1 Sources |
+| 3 | Module 3, 2 Exercise 1: Iterative prompt refinement, by hand |
+| 3 | Module 3, 3 Exercise 2: The agent picks the tool and the model |
 | 4 | Module 4, 1 Sources |
 | 4 | Module 4, 2 Exercise 1: One custom node or widget |
 | 4 | Module 4, 3 Exercise 2: Package it into a library |

@@ -53,6 +53,8 @@ First** note says what to do with them.
 | 6 | Module 6, 7 Exercise 6: Extend the set on video |
 | 6 | Module 6, 8 Exercise 7: Make a 3D model of the new car |
 | 6 | Module 6, 9 Exercise 8: Turn the clean plate into a 360 panorama and a splat |
+| 6 | Module 6, 10 Exercise 9: Finish the shot in Nuke |
+| 6 | Module 6, 11 Exercise 10: Publish a workflow as a Nuke gizmo |
 | 7 | Module 7, 1 Sources |
 | 7 | Module 7, 2 Exercise 1: Read the topology |
 | 7 | Module 7, 3 Exercise 2: Issue a seat |
